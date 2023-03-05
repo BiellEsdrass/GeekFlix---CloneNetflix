@@ -1,0 +1,125 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #1c1c1c;
+  background-image: url(/imgs/back.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .navbar {
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.header .navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header .navbar__left img {
+  height: 2.5rem;
+  margin-right: 2rem;
+}
+.header .navbar__left a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.715);
+  font-size: 18px;
+}
+.header .navbar__left #home {
+  color: white;
+  font-weight: bold;
+}
+.header .navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.header .navbar__right a {
+  text-decoration: none;
+  color: white;
+}
+.header .navbar__right .icon {
+  height: 1.5rem;
+}
+.header .navbar__right__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header .navbar__right__profile .iconProfile {
+  height: 3.4rem;
+  border-radius: 50%;
+}
+.header .navbar__right__profile .iconSeta {
+  height: 1.5rem;
+  cursor: pointer;
+}
+.header .back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.header .back .movieTemplate {
+  width: 40%;
+}
+.header .back .back__btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.header .back .back__btns img {
+  height: 1.5rem;
+}
+.header .back .back__btns .btn__watch {
+  color: #1c1c1c;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.header .back .back__btns .btn__watch:hover {
+  background-color: rgba(240, 248, 255, 0.798);
+  filter: brightness(80%);
+}
+.header .back .back__btns .btn__info {
+  color: white;
+  background-color: rgba(91, 91, 91, 0.893);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.header .back .back__btns .btn__info:hover, .header .back .back__btns .btn__info a:hover {
+  background-color: white;
+  color: #1c1c1c;
+}
+.header .back .back__btns .btn__info:hover img {
+  filter: invert(100%);
+}/*# sourceMappingURL=index.css.map */

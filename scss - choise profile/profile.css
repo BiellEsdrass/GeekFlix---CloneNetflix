@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1c1c1c;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+.header img {
+  height: 2.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+.section h1 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  font-size: 45px;
+}
+.section button {
+  background-color: transparent;
+  border: 2px solid rgba(199, 199, 199, 0.7254901961);
+  padding: 0.5rem 3rem;
+  color: rgba(199, 199, 199, 0.7254901961);
+  text-transform: uppercase;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 4rem;
+  font-size: 18px;
+}
+.section button:hover {
+  border: 2px solid white;
+  color: white;
+}
+.section__profiles {
+  display: flex;
+  gap: 4rem;
+}
+.section__profiles a {
+  text-decoration: none;
+}
+.section__profiles__choice img {
+  height: 13rem;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.section__profiles__choice img:hover {
+  filter: brightness(70%) blur(2px);
+}
+.section__profiles__choice h3 {
+  color: rgba(255, 255, 255, 0.633);
+  text-align: center;
+  margin-top: 0.3rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section__profiles__choice__add img {
+  height: 13rem;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 3rem;
+}
+.section__profiles__choice__add img:hover {
+  filter: brightness(70%);
+}
+.section__profiles__choice__add h3 {
+  color: rgba(255, 255, 255, 0.633);
+  text-align: center;
+  margin-top: 0.3rem;
+  font-size: 20px;
+  font-weight: 400;
+}/*# sourceMappingURL=profile.css.map */
