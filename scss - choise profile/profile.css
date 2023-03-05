@@ -13,10 +13,10 @@ body {
 
 .header {
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
 }
 .header img {
-  height: 2.5rem;
+  height: 2rem;
 }
 
 .section {
