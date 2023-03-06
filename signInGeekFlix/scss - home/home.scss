@@ -74,6 +74,7 @@ body{
 
             &__country{
                 border: 2px solid rgba(255, 255, 255, 0.599);
+                background-color: rgba(0, 0, 0, 0.593);
                 display: flex;
                 align-items: center;
                 gap: 5px;
@@ -90,6 +91,7 @@ body{
                     border: none;
                     outline: none;
                     font-size: 17px;
+                    border-radius: 3px;
 
                     #selectCountryBR, #selectCountryEUA{
                         color: white;
